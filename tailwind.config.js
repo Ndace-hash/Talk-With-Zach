@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: "Inter",
+        secondary: "Castoro Tilting",
+      },
+      colors: {
+        primary: "#F2A71B",
+        secondary: "#011F26",
+      },
+    },
   },
   plugins: [],
 };
