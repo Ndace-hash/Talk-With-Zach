@@ -1,5 +1,7 @@
 <template>
-  <div>hello</div>
+  <div class="max-w-[1024px] mx-auto">
+    <slot />
+  </div>
 </template>
 
 <script>
