@@ -2,6 +2,7 @@
 import AppHero from "./components/AppHero.vue";
 import AppSkills from "./components/skills/AppSkills.vue";
 import AppProject from "./components/project/AppProject.vue";
+import AppBio from "./components/AppBio.vue";
 import DefaultLayout from "./layout/DefaultLayout.vue";
 </script>
 
@@ -11,6 +12,7 @@ import DefaultLayout from "./layout/DefaultLayout.vue";
       <AppHero />
       <AppSkills />
       <AppProject />
+      <AppBio />
     </div>
   </DefaultLayout>
 </template>
