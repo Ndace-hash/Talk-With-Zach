@@ -4,7 +4,10 @@
   >
     <p>
       If you enjoyed my work, you can find me on
-      <a href="/" target="_blank" class="hover:underline text-primary text-lg"
+      <a
+        href="https://twiter.com/ZaccheausYisa_N"
+        target="_blank"
+        class="hover:underline text-primary text-lg"
         >twitter</a
       >
       or send me a message on
