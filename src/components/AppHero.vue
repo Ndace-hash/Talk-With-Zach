@@ -1,8 +1,8 @@
 <template>
   <section class="mt-4 px-4 md:px-8 lg:px-16 md:container mx-auto">
-    <h1 class="text-base capitalize font-primary leading-5 text-primary mb-3">
+    <h1 class="text-base capitalize font-primary leading-5 mb-3">
       Hello, My name is<br />
-      <span class="font-primary text-4xl flex font-black mt-2"
+      <span class="font-primary text-primary text-6xl flex font-black mt-2"
         >Zaccheaus Yisa.</span
       >
     </h1>
