@@ -25,12 +25,22 @@ export default {
   setup() {
     const ProjectList = ref([
       {
+        title: "Taaskly Builder",
+        github: "",
+        live: "https://taaskly.xyz",
+        description:
+          "I convert design into cool beautiful user interface and give user great experience. Taaskly is a place where you can find services and shops to help you with your needs. Also you can ask people to help you complete tasks. Taaskly builder is a website builder that help shops and services on Taaskly create websites.",
+        tools: ["vue", "Nuxt", "tailwind css", "Firbase","typescript"],
+        public: false
+      },
+      {
         title: "Free Anime Planet",
         github: "https://github.com/ndace-hash/planet-anime",
         live: "https://freeanimeplanet.netlify.app",
         description:
           "This is a website I created solve the problems of ads when trying to download new episodes of my favorite anime series.",
         tools: ["vue", "express", "tailwind css", "restAPI"],
+        public: true
       },
       {
         title: "The Movie Store",
@@ -39,6 +49,7 @@ export default {
         description:
           "I built this website as a side project to practice my understanding of APIs. It allows you see popular movies and search for movies tou want to learn about before watching.",
         tools: ["HTML", "CSS", "JavaScript", "bootstrap", "TMDB API"],
+        public: true
       },
       {
         title: "codeden",
@@ -47,6 +58,7 @@ export default {
         description:
           "Codeden is an Open-source component library that provides basic components for developers to add to their apps. Codeden also has a website builder implemented in it.I worked on the user interface of the website.",
         tools: ["vue", "tailwind css", "icon8"],
+        public: true
       },
       {
         title: "Job Listing Board",
@@ -55,6 +67,7 @@ export default {
         description:
           "This is a frontend mentor challenge I completed. It list jobs openings and you can filter jobs based on positions and tech stacks.",
         tools: ["HTML", "CSS", "JavaScript"],
+        public: true
       },
     ]);
 

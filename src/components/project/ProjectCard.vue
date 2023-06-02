@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full max-w-lg border-2 rounded-md shadow-xl py-3 px-2 flex flex-col md:flex-row md:px-4 md:items-center justify-center"
+    class="w-full max-w-lg border-2 rounded-md shadow-xl py-3 px-2 flex flex-col md:flex-row md:px-4 md:items-center justify-center gap-3"
   >
     <div class="mb-4">
       <h3 class="font-semibold text-white text-lg mb-2 capitalize">
@@ -18,6 +18,7 @@
     </div>
     <div class="flex gap-4 md:items-center md:flex-col">
       <a
+      v-if="project.public"
         class="bg-primary p-1 rounded-full text-xl flex items-center justify-center shadow-lg md:hover:-translate-y-1 ease-in transition-all"
         :href="project.github"
         target="_blank"
